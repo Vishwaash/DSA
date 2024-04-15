@@ -9,4 +9,8 @@ int main(){
     float c = 3.13;
     float *ptr2 = &c;
     cout<<c<<endl;
+    int d = 50;
+    int *ptr = &d;
+    cout<<ptr<<endl;
+    cout<<*ptr<<endl;
 }
